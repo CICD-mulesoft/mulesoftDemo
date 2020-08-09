@@ -1,0 +1,26 @@
+<server>
+    <id>MuleRepository</id>
+    <username>MS63</username>
+    <password>kqsbsvq@MS63</password>
+</server>
+<profile>
+        <id>Mule</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <repositories>
+            <repository>
+                <id>MuleRepository</id>
+                <name>MuleRepository</name>
+                <url>https://github.com/CICD-mulesoft/mulesoftDemo</url>
+                <layout>default</layout>
+
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                           <snapshots>
+                    <enabled>true</enabled>
+               </snapshots>
+            </repository>
+        </repositories>
+ </profile>
